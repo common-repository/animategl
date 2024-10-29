@@ -1,0 +1,87 @@
+.agl{
+	visibility: hidden;
+}
+
+.agl-bg{
+	visibility: hidden;
+}
+
+.agl img{
+    visibility: hidden;
+}
+
+.agl-bg img{
+    visibility: hidden;
+}
+
+img.agl{
+    visibility: hidden;
+}
+
+img.agl-bg{
+    visibility: hidden;
+}
+
+.agl-disabled img{
+    visibility: initial;
+}
+
+.agl-disabled{
+    opacity: initial;
+}
+
+.agl-bg{
+    background-size: 0 !important;
+}
+
+.agl-hidden{
+    opacity: 0 !important;
+    background: transparent !important;
+}
+
+.lil-gui .children{
+    /* margin-left: 14px; */
+    /* border-left: 1px solid rgb(60, 60, 60) !important; */
+    /* background-color: grey; */
+}
+
+.lil-gui .move{
+    cursor: move;
+    user-select: none;
+    width: 100%;
+    height: 15px;
+    background: #1f1f1f;
+    text-align: center;
+}
+
+.lil-gui .move:before{
+    content: "=";
+}
+
+.lil-gui input[type="checkbox"]{
+	color: white;
+}
+
+.lil-gui input{
+	min-height: 0;
+}
+
+.lil-gui .controller .widget{
+	margin: 0;
+}
+
+.lil-gui button{
+	background-color: #2271b1;
+}
+
+.lil-gui input[type=checkbox]:checked:before{
+	width: initial;
+	height: initial;
+	margin: initial;
+}
+
+.lil-gui {
+	--folder-indent: 12px;
+	--spacing: 2px;
+	--widget-height: 24px;
+}
